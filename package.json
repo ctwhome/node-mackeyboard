@@ -1,0 +1,55 @@
+{
+  "name": "mac-keyboard",
+  "version": "0.0.2",
+  "description": "Enables you to create virtual keyboard input on Mac OS X using Cocoa.",
+  "author": {
+    "name": "Sveinn Floki Gudmundsson",
+    "email": "ctw@ctwhome.com"
+  },
+  "contributors": [
+    {
+      "name": "Jesus Garcia Gonzalez",
+      "email": "ctw@ctwhome.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctwhome/node-mac-keyboard.git"
+  },
+  "main": "mac-keyboard.js",
+  "keywords": [
+    "native keyboard",
+    "mac os x"
+  ],
+  "bugs": {
+    "url": "https://github.com/ctwhome/node-mac-keyboard/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "NodObjC": "~1.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ctwhome/node-mac-keyboard",
+  "_id": "mac-keyboard@0.0.2",
+  "dist": {
+    "shasum": "fac9dffb85fe40891a9bf7f6654327ef1ddd63b9",
+    "tarball": "http://registry.npmjs.org/mac-keyboard/-/mac-keyboard-0.0.2.tgz"
+  },
+  "_from": "mac-keyboard@*",
+  "_npmVersion": "1.3.17",
+  "_npmUser": {
+    "name": "ctw",
+    "email": "ctw@ctwhome.com"
+  },
+  "maintainers": [
+    {
+      "name": "ctw",
+      "email": "ctw@ctwhome.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "fac9dffb85fe40891a9bf7f6654327ef1ddd63b9",
+  "_resolved": "https://registry.npmjs.org/mac-keyboard/-/mac-keyboard-0.0.2.tgz"
+}

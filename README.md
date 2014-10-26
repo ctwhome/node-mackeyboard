@@ -1,4 +1,38 @@
-node-mackeyboard
-================
+# mackeyboard
 
 A node.js module that enables you to create virtual keyboard input on Mac OS X.
+
+## Credits
+Uses [NodObjC](https://github.com/TooTallNate/NodObjC) to hook into the Cocoa framework. The mackeyboard module is merely a wrapper around mouse control commands to the Cocoa framework via NodObjC.
+Special thanks to [Loknar](https://github.com/Loknar)
+
+## Installation
+
+Install using `npm`,
+
+``` bash
+$ npm install mackeyboard
+```
+
+## Usage Example
+``` javascript
+
+var pressKey = function(key){
+    // Key to press
+    key = key || 125;
+
+    // Keyboard key event
+    var keyEvent = $.CGEventCreateKeyboardEvent(null, key, true);
+    
+    // Fire event
+    $.CGEventPost($.kCGHIDEventTap, keyEvent);
+
+    console.log("Key fired: ", key);
+}
+
+```
+
+## Keyboard 
+
+## License
+(MIT License)
