@@ -33,7 +33,7 @@ var pressKey = function(key){
 ```
 
 ## Keyboard Codes
-![Keyboard Keys](/https://raw.githubusercontent.com/ctwhome/node-mackeyboard/master/keyboardmac.png)
+![Keyboard Keys](https://raw.githubusercontent.com/ctwhome/node-mackeyboard/master/keyboardmac.png)
 
 ## License
 (MIT License)
