@@ -11,7 +11,7 @@ Special thanks to [Loknar](https://github.com/Loknar)
 Install using `npm`,
 
 ``` bash
-$ npm install mackeyboard
+$ npm install mac-keyboard
 ```
 
 ## Usage Example
