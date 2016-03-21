@@ -1,6 +1,6 @@
 {
   "name": "mac-keyboard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Enables you to create virtual keyboard input on Mac OS X using Cocoa.",
   "author": {
     "name": "Sveinn Floki Gudmundsson",
@@ -28,7 +28,7 @@
     "node": "*"
   },
   "dependencies": {
-    "NodObjC": "~1.0.0"
+    "nodobjc": "2.1.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/ctwhome/node-mac-keyboard",
