@@ -14,7 +14,7 @@
 
 'use strict'
 
-var $ = require('NodObjC');
+var $ = require('nodobjc');
 $.framework('Cocoa');
 
 var pool;
